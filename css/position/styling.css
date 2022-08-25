@@ -1,18 +1,107 @@
-.big box{
+.container{
+height: 1000px;
+width: 1000px;
 
-    
+
+}
+.primary .secondary{
+    display: flex;
+    flex-direction: column;
+
 }
 
-
-
-
-
+.primary{
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+    display: flex;
+   flex-direction: column;
+   margin: 100px;
+   margin-top: 40px;
+}
+.element2 p{
+    padding-left: 20px;
+}
+ .container.img2{
+    padding-left: 10px;
+    height: 2px;
+    width: 3px;
+}
+h1{ 
+    padding-left: 20px;
+}
 
 .element1{
     border: 2px solid black;
      background-color: aqua;
     }
+   .element1 .img1 img{
+padding-left: 30px;
+padding-top: 20px;
+height: 70px;
+width: 70px;
+ }
+    .img2{ 
+padding-left: 30px;
+
+ }
+
+.element2 .img3 img{
+    width: 20px;
+}
+
 .element2{
 background-color: beige;
 border: 3px;
+}
+p { 
+font-weight: bold;
+
+}
+.secondary{ 
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+background-color: brown;
+width: 600px;
+margin: 50px;
+margin-bottom: 400px;
+margin-top: 500px;
+height: 200px;
+}
+.elemente{
+
+background-color: green;
+width: 500px;
+height: 100px;
+position: relative;
+}
+.elementc{
+    background-color: rgb(255, 241, 205);
+}
+.elementd{
+    background-color: rgb(0, 110, 255);
+}
+.elementb{
+    background-color: aquamarine;
+}
+.elementa{
+background-color: pink;
+
+}
+.third{
+display: flex;
+flex-direction: column;
+
+margin-bottom: 500px;
+margin-left: 40px;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+.third .elementd{
+background-color: antiquewhite;
+width: 800px;
+font-size: larger;
+align-items: center;
+
 }
