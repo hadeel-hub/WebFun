@@ -1,0 +1,101 @@
+/* * { 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin:0 auto;
+    height : 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body {
+    width: 65%;
+    height: 400px;
+
+}
+
+.header {
+    background-color: rgba(23,162,184,255);
+    height: 300px;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+width: 65%;
+position: fixed;
+top: 100px;
+left: 150px;
+border: 4px solid rgb(202, 191, 191);
+
+
+
+}
+.blue {
+    height: 150px;
+    background-color: aqua;
+}
+.white{
+    align-items: center;
+    background-color: white;
+    height: 300px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+img {
+    justify-content: center;
+}
+
+.person {
+    padding-left: 30px;
+    padding-top: 80px;
+    width: 120px;
+    border-radius: 500px solid rgb(208, 21, 21);
+    border
+}
+h1 {
+    padding-top: 60;
+    padding-left: 40;
+}
+
+.map, .gear {
+    width: 15px;
+    position: relative;    
+    top:0px;  
+}
+.map1 { 
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.seatle{
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.developer {
+    padding-left: 40px;
+    padding-top: 15px;
+    font-weight: bolder;
+}
+
+.end {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: larger;
+
+}
