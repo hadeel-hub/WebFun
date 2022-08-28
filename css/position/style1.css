@@ -1,0 +1,88 @@
+.container{
+width: 970px;
+height: 1000px;
+margin: 0%;
+padding: 0%;
+background-color: rgba(0, 179, 255, 0.986);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+section p{
+color: white;
+}
+.text button{
+    float: right;
+    margin-top: 6px;
+    justify-content: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.navigation{ 
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+.order{
+    width: 700px;
+    height: 30px;
+    margin-left: 60px;
+}
+.second{
+background-color: white;
+flex-direction: row;
+}
+p{
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+font-weight: 100px;
+}
+footer{
+align-items: center;
+
+}
+footer li{
+list-style: none ;
+display flex: ;
+}
+footer p{
+align-items: baseline;
+}
+footer div li{
+justify-content: space-between;
+margin-top: 30px;
+margin-left: 50%;
+display: flex;
+}
+main li{
+   color: rgb(127, 148, 255); 
+}
+main div{
+display: flex;
+width: 300px;
+flex-direction: column;
+}
+.move{
+    float: right;
+    margin-top: 20px;
+    margin: right 60px;
+    border-top:  solid cornflowerblue;
+}
+.right{
+margin-left: 40px;
+margin-bottom: 20px;
+border-top: cornflowerblue solid;
+}
+section div{
+    flex-direction: column;
+    padding-left: 400px;
+    }
+    aside li{
+    padding-left: 40px;
+    list-style: none; }
