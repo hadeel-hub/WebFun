@@ -1,0 +1,75 @@
+.container{
+ border: 2px ;
+width: 970;
+}
+.root{
+width: 800px;
+margin-left: 100px;
+}
+header{
+width: 800px;
+height: 70px;
+background-color: grey;
+display: flex;
+justify-content: space-between;
+}
+.first{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+.push{
+    padding-top: 40px;
+}
+.push button{
+    color: blue;
+    background-color: aqua;
+}
+.te{
+    margin-right: 50px;
+}
+.first-box{
+    border: 3px solid black;
+    margin-top: 40px;
+    width: 400px;
+    display: flex;
+}
+.top{
+    text-align: left;
+    padding-left: 30px;
+}
+.first-box button{ 
+    background-color: salmon;
+    margin-left: 30px;
+    
+}
+.bottom{
+    padding-left: 60px;
+    margin-top: 60px;
+}
+.second-box{
+width: 400px;
+margin-top: 40px;
+border: 3px solid black;
+
+}
+.last-box{
+    border: 3px solid black;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    }
+    .ultimate{
+        display: flex;
+    }
+    .second-box{
+display: flex;
+margin-top: 50px;
+ }
+ .element2{
+margin-top: 50px;
+}
+.element1{
+  margin-left: 5px;
+
+}
+
