@@ -1,5 +1,5 @@
 
-function pizzaOven(bread,sause,cheeses, toppings){
+function pizzaOven(bread, sause, cheeses, toppings){
 var pizza={};
 pizza.bread = bread;
 pizza.sause= sause;
@@ -8,3 +8,4 @@ pizza.toppings = toppings;
 return pizza;
 }
 var p1 = pizzaOven("deep fish","traditional", ["mozzorella"],["pepperoni","sausage"])
+console.log(p1);
