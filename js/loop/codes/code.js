@@ -18,3 +18,9 @@ for(i=100; i>0; i--){
 for (let i=4; i>= -3.5;i-=1.5){
     console.log(i);
 }
+
+var sum;
+for(i=0;i<=100; i++){
+sum=sum+i;
+console.log(sum)
+}
