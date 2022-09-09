@@ -23,19 +23,19 @@
         <nav class="second">
             <h1>San Jose</h1>
             <p>show temperature in</p> 
-            <select onclick="" name="change" id="first">
-                <option>C</option>
-                <option>F</option>
+            <select onchange="degree(this)"  name="temp" id="first">
+                <option value="Celsius" selected>C</option>
+                <option value="Fehrenheit">F</option>
             </select>
         </nav>
-        <main>
+        <main >
             <div class="element">
                 <h2>Today</h2>
                 <img src="some_rain.png" alt="rain">
                 <p>some rain</p>
                 <div class="tempretures">
-                    <p class="max">75</p>
-                    <p class="min">65</p>
+                    <p class="max">24</p>
+                    <p class="min">18</p>
                 </div>
             </div>
             <div class="element">
@@ -43,8 +43,8 @@
                 <img src="some_sun.png" alt="sun">
                 <p>some sun</p>
                 <div class="tempretures">
-                    <p class="max">80</p>
-                    <p class="min">66</p>
+                    <p class="max">27</p>
+                    <p class="min">19</p>
                 </div>
             </div>
             <div class="element">
@@ -53,8 +53,8 @@
                 <div>
                     <p>some clouds</p>
                     <div class="tempretures">
-                        <p class="max">69</p>
-                        <p class="min">61</p>
+                        <p class="max">21</p>
+                        <p class="min">16</p>
                     </div>
                 </div>
             </div>
@@ -64,8 +64,8 @@
                 <div>
                     <p>some sun</p>
                     <div class="tempretures">
-                        <p class="max">78</p>
-                        <p class="min">70</p>
+                        <p class="max">26</p>
+                        <p class="min">21</p>
                     </div>
                 </div>
             </div>
