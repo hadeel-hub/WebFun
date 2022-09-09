@@ -1,0 +1,26 @@
+.row-1{
+
+display: flex;
+height: 100px;
+}
+.row-2{
+display: flex;
+
+height: 100px;
+
+}
+.col, .col1, .col2{
+   background-color: beige;
+   border: 2px solid;
+   flex: auto;
+   margin: 10px;
+   width: 40%;
+}
+.col1-{
+    width: 33%;
+    border: 2px solid;
+}
+.row-3{
+display: flex;
+height: 100px;
+}
